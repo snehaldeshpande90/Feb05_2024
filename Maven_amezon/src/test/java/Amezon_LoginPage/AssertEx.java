@@ -8,6 +8,7 @@ public class AssertEx {
 	
 	String name= "mouse";
 	boolean x=false;
+	
 	SoftAssert softassert=new SoftAssert();
 	@Test
 	public void Test1()
@@ -21,10 +22,10 @@ public class AssertEx {
 		//Assert.assertTrue(x);//false
 		//System.out.println("afterHardAssert");
 		
-		softassert.assertFalse(x);
+		//softassert.assertFalse(x);
 		System.out.println("aftersoftAssert");
 		//softassert.assertAll();		
-		
+		System.out.println();
 	}
 	
 }
