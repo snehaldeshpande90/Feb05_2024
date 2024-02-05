@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_Amezone(failed)">
+    <parameter name="Chormebrowser" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="Amezon_LoginPage.Loginpage_TestNG">
+        <methods>
+          <include name="dispaly"/>
+          <include name="beforemethode"/>
+          <include name="afterClass"/>
+          <include name="Aftermethode"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Amezon_LoginPage.Loginpage_TestNG -->
+    </classes>
+  </test> <!-- Test_Amezone(failed) -->
+  <test thread-count="5" name="Test_Amezone2(failed)">
+    <parameter name="Chormebrowser" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="Amezon_LoginPage.Loginpage_TestNG">
+        <methods>
+          <include name="dispaly"/>
+          <include name="beforemethode"/>
+          <include name="afterClass"/>
+          <include name="Aftermethode"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Amezon_LoginPage.Loginpage_TestNG -->
+    </classes>
+  </test> <!-- Test_Amezone2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

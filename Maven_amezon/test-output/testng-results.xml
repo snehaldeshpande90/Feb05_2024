@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-01T15:06:39 IST" name="Default suite" finished-at="2024-02-01T15:06:39 IST" duration-ms="73">
+    <groups>
+    </groups>
+    <test started-at="2024-02-01T15:06:39 IST" name="Default test" finished-at="2024-02-01T15:06:39 IST" duration-ms="73">
+      <class name="Amezon_LoginPage.Data">
+        <test-method signature="Test1(java.lang.String,java.lang.String)[pri:0, instance:Amezon_LoginPage.Data@16610890]" started-at="2024-02-01T15:06:39 IST" name="Test1" data-provider="mydata" finished-at="2024-02-01T15:06:39 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahesh@123new]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123new]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test1(java.lang.String,java.lang.String)[pri:0, instance:Amezon_LoginPage.Data@16610890]" started-at="2024-02-01T15:06:39 IST" name="Test1" data-provider="mydata" finished-at="2024-02-01T15:06:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahesh@12new]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass12new]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test1(java.lang.String,java.lang.String)[pri:0, instance:Amezon_LoginPage.Data@16610890]" started-at="2024-02-01T15:06:39 IST" name="Test1" data-provider="mydata" finished-at="2024-02-01T15:06:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahesh@1new]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1new]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- Amezon_LoginPage.Data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
