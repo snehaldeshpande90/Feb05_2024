@@ -29,6 +29,7 @@ WebDriver driver;
 public void openAdminPage() throws InterruptedException
 {
 	driver=new ChromeDriver();
+	System.out.println("test");
 	//WebDriver driver =new FirefoxDriver();
 	//WebDriver driver1=new InternetExplorerDriver();
 	Set<Cookie>cookie=driver.manage().getCookies();
