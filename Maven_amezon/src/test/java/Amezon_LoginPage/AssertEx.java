@@ -25,7 +25,7 @@ public class AssertEx {
 		//softassert.assertFalse(x);
 		System.out.println("aftersoftAssert");
 		//softassert.assertAll();		
-		System.out.println();
+		System.out.println("hello");
 	}
 	
 }
