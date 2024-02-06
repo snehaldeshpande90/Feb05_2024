@@ -14,7 +14,7 @@ public class Data {
 	 {
 		 
 	 	System.out.println(username);
-	 	System.out.println(password);
+	 	
 	 	
 	 }
 	 
@@ -30,5 +30,6 @@ public class Data {
 		data[2][0]="mahesh@1";
 		data[2][1]="pass1";
 		return data;*/
+	System.out.println(password);
 	}
 	 
