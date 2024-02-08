@@ -65,7 +65,7 @@ public void openAdminPage() throws InterruptedException
      adminPage.eneterUserNameForSearch("Admin");
      driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
      //adminPage.eneterEmployeeNameForSearch("Admin");
-     //Thread.sleep(2000);
+     Thread.sleep(2000);
      adminPage.selectRole();
      driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
      adminPage.status();
